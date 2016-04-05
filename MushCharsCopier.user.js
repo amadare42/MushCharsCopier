@@ -2,9 +2,10 @@
 // @name         Mush Chars Copier
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  copy available characters in Mush like a boss!
 // @author       Amadare
 // @match        http://mush.twinoid.com/chooseHero
+// @updateURL    https://github.com/amadare42/MushCharsCopier/raw/master/MushCharsCopier.user.js
 // @grant        none
 // ==/UserScript==
 /* jshint -W097 */
