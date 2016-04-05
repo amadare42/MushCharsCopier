@@ -23,6 +23,7 @@ function putNamesToClipboard(){
     for (var i = 0; i < arr.length; i++){
         message+=arr[i]+"\n";
     }
+    arr.sort();
     input.val(message);
     input.focus();
     input.select();
