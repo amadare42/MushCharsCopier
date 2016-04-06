@@ -20,11 +20,11 @@ function addStyleString(str) {
 
 function putNamesToClipboard(){
     var arr = $("h2").map(function(e, e1){return e1.innerHTML;})
+    arr.sort();
     var message = "";
     for (var i = 0; i < arr.length; i++){
         message+=arr[i]+"\n";
     }
-    arr.sort();
     input.val(message);
     input.focus();
     input.select();
